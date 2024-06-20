@@ -1,4 +1,4 @@
-package br.com.dio.challenge;
+package br.com.dio;
 
 public class Main {
     public static void main(String[] args) {

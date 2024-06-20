@@ -1,4 +1,4 @@
-package br.com.dio.entity;
+package br.com.dio.domain;
 
 public class Course extends Content {
     private int workload;

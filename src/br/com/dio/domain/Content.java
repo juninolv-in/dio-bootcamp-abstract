@@ -1,4 +1,4 @@
-package br.com.dio.entity;
+package br.com.dio.domain;
 
 public abstract class Content {
     protected static final double  XP = 10;

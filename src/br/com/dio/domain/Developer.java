@@ -1,9 +1,8 @@
-package br.com.dio.entity;
+package br.com.dio.domain;
 
 import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
-import java.util.logging.Logger;
 
 public class Developer {
     private String name;

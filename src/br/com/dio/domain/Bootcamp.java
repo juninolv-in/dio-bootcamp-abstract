@@ -1,4 +1,4 @@
-package br.com.dio.entity;
+package br.com.dio.domain;
 
 import java.time.LocalDate;
 import java.util.LinkedHashSet;
@@ -48,7 +48,7 @@ public class Bootcamp {
     public String toString() {
         return String.format(
             "Bootcamp{name='%s', description='%s', startDate='%s', endDate='%s', contents='%s', developers='%s'}",
-            getName(), getDescription(), getStartDate(), getEndDate(), getContents(), getDevelopers()
+            getName(), getDescription(), getStartDate(), getEndDate(), getContents().size(), getDevelopers().size()
         );
     }
 }

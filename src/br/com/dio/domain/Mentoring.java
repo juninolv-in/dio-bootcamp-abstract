@@ -1,4 +1,4 @@
-package br.com.dio.entity;
+package br.com.dio.domain;
 
 import java.time.LocalDate;
 
